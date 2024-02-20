@@ -10,3 +10,4 @@ In this process i was asked to add a new device to the worspace and linked them 
 ---
 ![Stage3-network-topology](https://github.com/ricknjr/Network-lab/assets/160628458/f4e5a979-5a00-422b-8538-907b60ae4078)
 
+Here i added Win2012r2 server to join the domain.This was done by giving it the static ip address of 10.128.0.80 and also setting up the primary DNS ip from the preivious server as a primary  and the Firewall LAN IP as a secondary. At the end everything was sync with dc.widgets.localdomain.Once the server has joined the the domain i installed the Internet Information Services.I ended up creating a test webpage on IIS and made sure it was able to be access by win10 workstation.
