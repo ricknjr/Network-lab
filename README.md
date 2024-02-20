@@ -7,4 +7,6 @@ During this process I added a new device (Win10) and linked them up. When adding
 ---
 In this process i was asked to add a new device to the worspace and linked them up as shown in stage01. In this server i had to set up an "Active Directory Domain Services" server role.First I had to prepared the Win2012r2 server for the "Active Directory Services." I did this by setting up an ip address, subnet mask, dafault gateway, DNS1 and DNS2 on the internet Protocol Version 4.I also synchronized the time with the internet server to 10.128.0.1.Once this was done I continued to set up the Active Directory Domain Services.This was done by following the learn.microsoft.com steps that it gives out.Once the Active Directory Domain was created I created users for the Active Directory to become Domain Admins. Next I prepared Win10 to join the server. Later I set up a group policy to for a background.
 ![Stage2-network-topology](https://github.com/ricknjr/Network-lab/assets/160628458/cc2051ff-be10-4387-bec7-3c5843d5f7f5)
+---
+![Stage3-network-topology](https://github.com/ricknjr/Network-lab/assets/160628458/f4e5a979-5a00-422b-8538-907b60ae4078)
 
